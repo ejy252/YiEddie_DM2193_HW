@@ -1,0 +1,10 @@
+There was nothing glaringly difficult or easy in the material this week. Almost all of the topics this week were completely 
+new to me, so of course I did have to look into the documentation of css to discern most of what I was reading, but once I did,
+understanding the references and completing the exercises was pretty straight forward. The one problem that I did struggle with
+was regarding positioning. I initially didn’t realize the “absolute” position setting was absolute in reference to the 
+container not the page. If I had to choose an easiest part, it would the topic of overflow. Obviously using floats will be 
+crucial to my final project so I’m glad that I have an improved grasp on the use of that feature. The navigation menu and sub 
+navigation menu references were also seemingly quite useful, as I planned to include those constructs into the website. Sliders
+were also a large part of my idea for the website, although I intended to use them on the entirety of the page. I presume you
+can first encapsulate the entire page in a division, and apply the overflow properties to it, but I am unsure if there is a
+better way. 
