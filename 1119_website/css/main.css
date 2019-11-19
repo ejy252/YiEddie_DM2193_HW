@@ -1,0 +1,36 @@
+.menu_button{
+  border: none;
+  background-color: transparent;
+  color: #FEFEFE;
+  padding: 10px 12px;
+  text-align: right;
+  display: inline-block;
+  transition-duration: 0.4s;
+  width: 100%;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1rem;
+}
+.menu_button:hover {
+  background-color: #FEFEFE; /* Green */
+  color: #283664;
+}
+.home_hero{
+  background-color: transparent;
+}
+.home_hero img{
+  width: 100%;
+  border: 0.5em double rgba(177,218,224,0.7);
+  box-shadow: 3px 3px 5px #93b6bf;
+}
+.home_thumb{
+  background-color: transparent;
+}
+.home_thumb img{
+  width: 100%;
+  border: 0.5em double rgba(177,218,224,0.7);
+  box-shadow: 3px 3px 5px #93b6bf;
+}
+.home_title{
+  background-color: transparent;
+  margin:25px 10px 0px;
+}

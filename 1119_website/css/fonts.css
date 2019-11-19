@@ -1,0 +1,39 @@
+
+html{
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  line-height: 1.4em;
+}
+
+p{
+ font-family: 'Open Sans', sans-serif;
+
+}
+
+a{
+  font-size:.75em;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: aquamarine;
+}
+h1{
+  font-size: 4.75rem;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  margin: 25px
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h5{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1rem;
+  margin: 10px 12px;
+  color: #FEFEFE;
+}
+h6{
+  font-family: 'Open Sans', sans-serif;
+}

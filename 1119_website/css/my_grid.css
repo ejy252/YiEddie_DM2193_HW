@@ -1,0 +1,108 @@
+* {box-sizing: border-box;
+}
+
+body{
+  background-color: #e2e2e2;
+  color: black;
+  margin:0;
+}
+
+.container{
+  width: 200%;
+  max-width:2880px;
+  position: absolute;
+  margin-left: 25%;
+
+}
+
+.row{
+  width:100%;
+  margin:auto;
+}
+.row > div{
+  padding: 0%;
+}
+
+/* this is clearfix hack. i am saying to clear content after each row */
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* or you can use a class separately for just clearfix and add it to your floats*/
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo{
+  float:left;
+  width:30%;
+  background-color:lightgreen;
+}
+
+.menu{
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 25%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #627980; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.col-21{
+  float:left;
+  width:87.5%;
+  background-color:blue;
+  height:100%;
+}
+
+.full_width{
+  float:left;
+  width:200%;
+  height: 108.33333%;
+  background-color:hotpink;
+}
+
+.quarter_width{
+  float:left;
+  width:25%;
+  background-color:lightblue;
+}
+.footer{
+  float:left;
+  width:200%;
+  height:40px;
+  background-color:darkseagreen;
+}
+.banner{
+  float:left;
+  width:50%;
+  height:25%;
+  background-color: lightblue;
+
+}
+.title{
+  float:left;
+  width:83.3%;
+  height:12.5%;
+  background-color: white;
+}
+.col-1-5{
+  float:left;
+  width:12.5%;
+}
+.col-4-5{
+  float:left;
+  width:37.5%;
+}
+.col-12{
+  float:left;
+  width:100%;
+  color: #FEFEFE
+}
