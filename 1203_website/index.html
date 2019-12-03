@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="More more more">
+    <title>Eddie Yi's Portfolio</title>
+    <meta name="keywords" content="HTML, CSS, NYU Tandon">
+    <meta name="author" content="NYU Tandon: Web Design I">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+   <link rel="stylesheet" href="css/my_grid.css">
+   <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="css/main.css">
+   <!-- font import-->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/fa0776ba06.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="menu">
+    <h5>MENU:</h5>
+    <button class="menu_button">HOME <i class="fas fa-caret-left"></i></button>
+    <button class="menu_button">ARTWORK</button>
+    <button class="menu_button" onclick="window.location.href = 'modeling.html';">MODELING</button>
+    <button class="menu_button">CODING</button>
+    <button class="menu_button">DESIGN</button>
+    <button class="menu_button">VIDEO</button>
+    <button class="menu_button">WRITING</button>
+  </div>
+  <div class = "home_container">
+    <div class = "row">
+      <div class = "col-4-5 home_hero clickable">
+        <img src="./img/test_slideshow1.jpg" alt="">
+        <div class = "hero_over">
+          <p>
+            moon man
+          </p>
+        </div>
+      </div>
+      <div class = "col-1-5 home_thumb clickable" onclick="loadImg('img/test_thumbnail1.jpg')">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            moon man
+          </p>
+        </div>
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+
+
+    </div>
+    <div class = "row">
+      <div class = "col-12 home_title">
+        <h1>Eddie Yi</h1>
+      </div>
+
+    </div>
+    <div class = "row">
+      <div class = "col-1-5 home_thumb clickable">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            moon man
+          </p>
+        </div>
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-12 home_title">
+        <h1>ArtPortfolio</h1>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+      <div class = "col-1-5 home_thumb">
+        <img src="./img/test_thumbnail1.jpg" alt="">
+      </div>
+    </div>
+    <div class="my_modal" id="my_modal" style="display:none;">
+      <button class="close" onclick="closeModal();">x</button>
+      <div class="project" id="project_page">
+        <div class = "modal_description">
+          <h3>
+            AP Art Portfolio
+          </h3>
+          <hr style="transform: translate(-60px)">
+          <hr style="transform: translate(40px)">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <script src="js/modal.js"></script>
+
+  </div>
+</body>
+
+</html>

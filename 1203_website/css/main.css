@@ -1,0 +1,163 @@
+.menu_button{
+  border: none;
+  background-color: transparent;
+  color: #FEFEFE;
+  padding: 10px 20px 10px 12px;
+  text-align: right;
+  display: inline-block;
+  transition-duration: 0.4s;
+  width: 100%;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1rem;
+}
+.menu_button:hover {
+  background-color: #FEFEFE; /* Green */
+  color: #283664;
+}
+.menu_button i{
+  position: absolute;
+  width:50px;
+  transform:scale(4, 7) translate(-25px);
+  color:#313d40;
+}
+.home_hero{
+  background-color: transparent;
+}
+.home_hero img{
+  width: 100%;
+  border: 0.5vw double rgba(177,218,224,0.7);
+  box-shadow: 3px 3px 5px #93b6bf;
+}
+.home_thumb{
+  background-color: transparent;
+}
+.home_thumb img{
+  width: 100%;
+  border: 0.5vw double rgba(177,218,224,0.7);
+  box-shadow: 3px 3px 5px #93b6bf;
+}
+
+.home_thumb:hover img{
+  border-width: 1vw;
+
+}
+.home_hero:hover img{
+  border-width: 1vw;
+}
+.home_title{
+  background-color: transparent;
+  margin:25px 10px 0px;
+}
+
+.clickable:hover img{
+  opacity:.5;
+
+}
+
+.hero_over{
+  /* this text-align centers the text inside the dive */
+  text-align: center;
+  position: absolute;
+  /* top and left moves it 50% to the left and down and translate adjusts for the width, so it is actually center */
+  /* this hides the header/text behind the image and the hover bring it on top of the image
+      you can also use display:block and display:none to toggle the visiblity
+      or opacity or visiblity properties */
+  transform: translate(1vw, -7vw);
+  z-index:-1;
+  background-color: #313d40;
+  width: 25%;
+  height: 5vw;
+  opacity: 0%;
+  color: #FEFEFE
+}
+
+.clickable:hover .hero_over{
+  opacity: 100%;
+}
+
+.thumb_over{
+  /* this text-align centers the text inside the dive */
+  text-align: center;
+  position: absolute;
+  /* top and left moves it 50% to the left and down and translate adjusts for the width, so it is actually center */
+  /* this hides the header/text behind the image and the hover bring it on top of the image
+      you can also use display:block and display:none to toggle the visiblity
+      or opacity or visiblity properties */
+  transform: translate(1vw, -7.5vw);
+  z-index:-1;
+  background-color: #313d40;
+  width: 10.5%;
+  height: 5vw;
+  opacity: 0%;
+  color: #FEFEFE
+}
+
+.clickable:hover .thumb_over{
+  opacity: 100%;
+}
+
+.my_modal{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background: rgba(0, 0, 0, 0.75);
+
+}
+
+.close{
+  color:rgba(177,218,224,1);
+  background: transparent;
+  text-transform: uppercase;
+  padding:2px 3px;
+  border: 2px double rgba(177,218,224,1);
+  position:fixed;
+  top:20px;
+  right:20px;
+}
+
+.close:hover{
+  padding:0px 1px;
+}
+.project{
+  position:relative;
+  width:700px;
+  height:200px;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  border: 0.5vw double rgba(177,218,224,0.7);
+  overflow: scroll;
+}
+.project img{
+  width:50%;
+  float: right;
+  position: fixed;
+  top:0px;
+  left:0px;
+  max-height: 500px;
+}
+.modal_description{
+  width:50%;
+  float:right;
+  color: #FEFEFE;
+  padding: 20px;
+  max-height: 500px;
+}
+.modal_description p{
+  margin: 5px;
+}
+.cat_hero{
+  overflow: hidden;
+  width:100%;
+  height: 30vw;
+}
+.cat_hero img{
+  width:100%;
+}
+.cat_hero h1{
+  position: absolute;
+  top: 23vw;
+  font-size: 5.5em;
+}
