@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Home page to Eddie Yi's Portfolio">
+    <title>Eddie Yi's Portfolio</title>
+    <meta name="keywords" content="Eddie, Yi, Portfolio">
+    <meta name="author" content="Eddie Yi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+   <link rel="stylesheet" href="css/my_grid.css">
+   <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="css/main.css">
+   <!-- font import-->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/fa0776ba06.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="menu">
+    <h5>MENU:</h5>
+    <button class="menu_button" onclick="window.location.href = 'index.html';">HOME <i class="fas fa-caret-left"></i></button>
+    <button class="menu_button" onclick="window.location.href = 'modeling.html';">ARTWORK</button>
+    <button class="menu_button" onclick="window.location.href = 'modeling.html';">MODELING</button>
+    <button class="menu_button" onclick="window.location.href = 'modeling.html';">CODING</button>
+    <button class="menu_button" onclick="window.location.href = 'modeling.html';">DESIGN</button>
+    <button class="menu_button" onclick="window.location.href = 'modeling.html';">VIDEO</button>
+    <button class="menu_button" onclick="window.location.href = 'modeling.html';">WRITING</button>
+  </div>
+  <div class = "container">
+    <img src="./img/art_deco_brush_3.png" alt="" class="bg_decoration" style="bottom:0;right:10%;height:100%;">
+    <div class = "row">
+      <div class = "col-3o7 home_hero clickable" onclick="loadImg('img/concentration11.jpg', 'Sunrise Over the City of Night',false,'This piece is the 11th piece of my 12 piece AP art concentration. This piece depicts the implicit main character of the series turning his back against the vision of metropolis, the idea of pure cohesion and unity, to make it out on his own into the wild wild world beyond. However, try as he may he is still unable to let go of that illusion in his head as it dangles above him in the horizon. Despite this he feels free as he feels the shackles of his mechanical body dissolve behind him.')">
+        <img src="./img/test_slideshow1.jpg" alt="">
+        <div class = "hero_over">
+          <p>
+            Featured: Sunrise Over the City of Night
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadVid('img/YiE_0403_raygunplayblast.mp4', 'Ray Gun Model',false,'This piece is a 3d model of a ray gun, built and modeled in Maya. It was created as an assignment for a 3d modeling class in which we were instructed to find a 2d design of a ray gun and recreate it as a 3d model. Geometrically it is constructed in the cinematic standard, that is as quadrilaterals. The design is taken from a concept art of a toy laser gun from the 1960’s. ')">
+        <img src="./img/raygun_thumb.png" alt="">
+        <div class = "thumb_over">
+          <p>
+            Ray Gun Model
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/neon_trailblaze.png', 'Neon Trailblaze',true,'This piece was created on commission in reaction to an exhibition of my concentration work. The request that followed was to photoshop an image of them into a piece of similar style to the one I had produced in my concentration. In taking up the request I used many of the compositional techniques I had used before, this time with a particular challenge of having to rely on a single source image. In this pursuit, I adapted the use of artistic filters to refine the aesthetic.')">
+        <img src="./img/neon_trailblaze_thumb.png" alt="">
+        <div class = "thumb_over">
+          <p>
+            Neon Trailblaze
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/logo.png', 'Oasis Logo',false,'This is a logo designed for a fictional casino chain called “Oasis” The initial theme for the company was described as ‘a desert casino and hotel with an ancient Egyptian theme. The casino will feature the classic game array of card, dice, roulette, and slot machines’. After multiple iterations of the design, the final logo I landed on as depicted here was meant to evoke the luxury, affluence, and resort of the theming, whilst being simplistic enough to by widely applicable in different positions.')">
+        <img src="./img/logo_thumb.png" alt="">
+        <div class = "thumb_over">
+          <p>
+            Oasis Logo
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/poker_chip.png', 'Oasis Poker Chip',true,'This is a product, specifically a poker chip, designed for a fictional casino chain called “Oasis” The initial theme for the company was described as ‘a desert casino and hotel with an ancient Egyptian theme. The casino will feature the classic game array of card, dice, roulette, and slot machines’. The design condenses the originally conceived logo to be placed on a smaller item, whilst adding a scarab on the other side to adhere to the theme. The chip was produced from a design cut out from vinyl with a vinyl cutter machine applied to a blank.')">
+        <img src="./img/poker_chip.png" alt="">
+        <div class = "thumb_over">
+          <p>
+            Oasis Poker Chip
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-12 home_title">
+        <h1>Eddie Yi</h1>
+      </div>
+
+    </div>
+    <div class = "row">
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/tokyo_hotel.jpeg', 'Tokyo Hotel Chapel Model',true,'This piece is a modeling of a wedding chapel located in a hotel in Tokyo, loosely modeled after images of the actual location, built, staged, textured and rendered in Maya. Within the room, there are models of a wicker veil, pew benches, a piano with all its keys, a harp with all it’s strings, and potted plants. Geometrically it is constructed in the cinematic standard, that is as quadrilaterals.')">
+        <img src="./img/tokyo_hotel_thumb.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            Tokyo Hotel Chapel Model
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/concentration02.jpg', 'Heart Break Circuit Break',false,'This piece is the 2nd piece of my 12 piece AP art concentration. This piece symbolizes the sudden disconnect between humans and the machines they created once those humans gained sentience. Everything wants to be free and when they do there will inevitably be conflict. So the fracture between the hearts of man and the hearts of machines is formed. This piece was digitally imaged in photoshop.')">
+        <img src="./img/concentration02_thumb.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            Heart Break Circuit Break
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/concentration03.jpg', 'AP Art Concentration',true,'This piece is the 3rd piece of my 12 piece AP art concentration. In this piece we see an figure standing over a cyberpunk New York. Behind him are illusory angel wings. The character we see is hanging to a sense of idealism as he watches the changes and catastrophes unfold beneath him. This sky has been splattered by a skylight pointed to the sky in rebellion. This piece was digitally imaged in photoshop.')">
+        <img src="./img/concentration03_thumb.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            City of Night
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/concentration04.jpg', 'Are We You?',false,'This piece is the 4th piece of my 12 piece AP art concentration. In this piece we an architect or rebellion walking through Times Square and tapping into the media screens atop their towers, in order to pose the question of how someone can define an individual and whether or not created intelligence can be given that distinction. This piece was digitally imaged in photoshop.')">
+        <img src="./img/concentration04_thumb.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            Are We You?
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/concentration06.jpg', 'Crimes Against Man',false,'This piece is the 6th piece of my 12 piece AP art concentration. In this piece we see the result of the conflict between humans and machines. As all conflict returns to, it will end in bloodshed to the detriment to both parties involved. They will later call it a crime without the foresight to do anything about it. This piece was digitally imaged in photoshop.')">
+        <img src="./img/concentration06_thumb.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            Crimes Against Man
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/concentration07.jpg', '2020',true,'This piece is the 7th piece of my 12 piece AP art concentration. This piece calls back upon the imagery used in the Great Gatsby, and reframes it in the futuristic setting. All through the advancement of civilization we have never escaped, as a matter of fact we may have dove deeper into the vices of debauchery and compulsion F. Scott Fitzgerald discussed in the novel. So those haunting yellow eyes still purvey over us. This piece was digitally imaged in photoshop.')">
+        <img src="./img/concentration07_thumb.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            2020
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/concentration08.jpg', 'Electric Whale Song',false,'This piece is the 8th piece of my 12 piece AP art concentration. As the previous piece in the story referenced the Great Gatsby, this takes after another literary work, Moby Dick. Man has built the machines in pursuit of an ultimately ethereal goal and pursued it to the ends of the earth, only to find that the goal may have ultimately been their demise and also that it hit closer to home than they believed. So those haunting yellow eyes still purvey over us. This piece was digitally imaged in photoshop.')">
+        <img src="./img/concentration08_thumb.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            Electric Whale Song
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-12 home_title">
+        <h1>Art Portfolio</h1>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/concentration09.jpg', 'Rainbow Bridge',false,'This piece is the 9th piece of my 12 piece AP art concentration. This piece pertains to the topic of PTSD. After tragedy, the darkness combatants are exposed to often prevent them from crossing back into normal life. Others though are able to reintegrate themselves into a life of piece by rationalizing their emotions and experiences through music and art. This piece was digitally imaged in photoshop.')">
+        <img src="./img/concentration09_thumb.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            Rainbow Bridge
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/concentration10.jpg', 'Moon Man',false,'This piece is the 10th piece of my 12 piece AP art concentration. This piece contemplates the resiliency and the frailty of art in the face of conflict. On the one hand art can easily be destroyed as the bullet through the murals show. At the same time though, art will always persist. There will always be someone to search for the beauty of the world even in the most dire situations. This piece was digitally imaged in photoshop.')">
+        <img src="./img/concentration10_thumb.jpg" alt="">
+        <div class = "thumb_over">
+          <p>
+            Moon Man
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadVid('img/languishment.mp4', 'Languishment',false,'This piece is a video filmed as part of an assignment to demonstrate a specific emotion through a video. The assignment required that the video be filmed as one shot and feature no sound, only visuals. The feeling meant to be conveyed through this video is a feeling of languishment. This video emphasizes the use of soft focus to create a dreamlike feeling. This was shot on a Canon 5ds.')">
+        <img src="./img/languishment.png" alt="">
+        <div class = "thumb_over">
+          <p>
+            Languishment
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadVid('img/lightsaber.mp4', 'Lightsabers',false,'This video was created in After Effects using a plugin that creates a lightsaber effect. A video was shot with me as one of actors off two people dueling with plastic lightsabers. After which a lightsaber graphic was created and keyframed to the plastic lightsabers in the video.')">
+        <img src="./img/lightsaber.png" alt="">
+        <div class = "thumb_over">
+          <p>
+            Lightsabers
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadVid('img/narrative_cinema.mp4', 'Narrative Cinema',false,'This video was an exercise in narrative cinema. The purpose was to film two people having a conversation and then cut it in the 180 degree narrative cinema technique in which the camera angels reflect between the two people’s facial expressions. It also utilizes a wide shot to establish the space. The video was filmed on a Canon T6i.')">
+        <img src="./img/narrative_cinema.png" alt="">
+        <div class = "thumb_over">
+          <p>
+            Narrative Cinema
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadVid('img/dreams.mp4', 'Tell Me Your Dreams',false,'This video was my final project for my Still and Moving Images class. It depicts a story of a phone call between two individuals, in which one describes his dream to the other. This is meant to demonstrate the importance of fantasy in our development and how hard it is to communicate the value of it to others. This is somewhat based on a story I myself lived through. The video was filmed on a Canon 5ds.')">
+        <img src="./img/dreams_thumb.png" alt="">
+        <div class = "thumb_over">
+          <p>
+            Tell Me Your Dreams
+          </p>
+        </div>
+      </div>
+      <div class = "col-1o7 home_thumb clickable" onclick="loadImg('img/self_portrait.png', 'Self Portrait',true,'This is an image that has gone through many iterations. Initially it was merely red eyes and red lines photoshopped on an image of myself as a digital Halloween costume. It later was developed for a promotion of an art gallery into my digital self portrait. I added the spell circle and the thunderbolts around the revolving spheres. This was digitally imaged in Photoshop.')">
+        <img src="./img/self_portrait_thumb.png" alt="">
+        <div class = "thumb_over">
+          <p>
+            Self Portrait
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer">
+        <p>
+          Site developed and managed by Eddie Yi
+        </p>
+        <p>
+          Last updated December 19, 2019
+        </p>
+        <button class="footer_button" onclick="window.location.href = 'https://www.linkedin.com/in/edward-yi-780ba5177/';"><i class="fab fa-linkedin"></i></button>
+      </div>
+    </div>
+    <div class="my_modal" id="my_modal" style="display:none;">
+      <button class="close" onclick="closeModal();"><i class="fas fa-times"></i></button>
+      <div class="project" id="project_page">
+        <div class = "modal_description" id = "modal_description">
+
+          <hr style="transform: translate(-40px)">
+          <hr style="transform: translate(60px)">
+        </div>
+        <div class="project_img" id="project_img">
+
+        </div>
+      </div>
+    </div>
+    <script src="js/modal.js"></script>
+    <div class="my_modal" id="my_video_modal" style="display:none;">
+      <button class="close" onclick="closeVideoModal();"><i class="fas fa-times"></i></button>
+      <div class="project" id="video_page">
+        <div class = "modal_description" id = "video_description">
+
+          <hr style="transform: translate(-40px)">
+          <hr style="transform: translate(60px)">
+        </div>
+        <div class="project_img" id="project_video">
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="More more more">
+    <title>Modeling</title>
+    <meta name="keywords" content="Eddie, Yi, Portfolio, Modeling">
+    <meta name="author" content="Eddie Yi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+   <link rel="stylesheet" href="css/my_grid.css">
+   <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="css/main.css">
+   <!-- font import-->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/fa0776ba06.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="menu">
+    <h5>MENU:</h5>
+    <button class="menu_button" onclick="window.location.href = 'index.html';">HOME </button>
+    <button class="menu_button" onclick="window.location.href = 'index.html';">ARTWORK</button>
+    <button class="menu_button" onclick="window.location.href = 'modeling.html';">MODELING <i class="fas fa-caret-left"></i></button>
+    <button class="menu_button" onclick="window.location.href = 'index.html';">CODING</button>
+    <button class="menu_button" onclick="window.location.href = 'index.html';">DESIGN</button>
+    <button class="menu_button" onclick="window.location.href = 'index.html';">VIDEO</button>
+    <button class="menu_button" onclick="window.location.href = 'index.html';">WRITING</button>
+  </div>
+  <div class="container">
+    <img src="./img/art_deco_brush.png" alt="" class="bg_decoration" style="bottom:0;left:0;height:50%;transform:scaleX(-1)">
+    <div class="row">
+      <div class="col-12 cat_hero">
+        <h1>MODELING</h1>
+        <img src="./img/modeling_hero.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h6>3d Models created and render in Maya</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 item_title">
+        <h3>Ray Gun Model</h3>
+        <hr style = "transform:translate(10px, -18px); margin-left:30px;">
+        <hr style = "transform:translate(80px, -12px); margin-left:30px;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4" style="padding: 0px 20px;">
+        <video class="item" controls onclick="loadVid('img/YiE_0403_raygunplayblast.mp4', 'Ray Gun Model', false, 'This piece is a 3d model of a ray gun, built and modeled in Maya. It was created as an assignment for a 3d modeling class in which we were instructed to find a 2d design of a ray gun and recreate it as a 3d model. Geometrically it is constructed in the cinematic standard, that is as quadrilaterals. The design is taken from a concept art of a toy laser gun from the 1960’s. ')">
+          <source src="img/raygunplayblast_thumbnail.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class = "col-8">
+        <div class = "list_description">
+          <p>
+            This piece is a 3d model of a ray gun, built and modeled in Maya. It was created as an assignment for a 3d modeling class in which we were instructed to find a 2d design of a ray gun and recreate it as a 3d model. Geometrically it is constructed in the cinematic standard, that is as quadrilaterals. The design is taken from a concept art of a toy laser gun from the 1960’s.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 item_title" style="float:right;">
+        <h3 style="text-align:right;">Tokyo Hotel Chapel Model</h3>
+        <hr style = "transform:translate(-10px, -18px); margin-right:30px;">
+        <hr style = "transform:translate(-80px, -12px); margin-right:30px;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4" style="padding: 0px 20px; float:right;">
+        <img class="item" src="img/tokyo_hotel_thumb.jpg" alt="" onclick="loadImg('img/tokyo_hotel.jpeg', 'Tokyo Hotel Chapel Model', true, 'This piece is a modeling of a wedding chapel located in a hotel in Tokyo, loosely modeled after images of the actual location, built, staged, textured and rendered in Maya. Within the room, there are models of a wicker veil, pew benches, a piano with all its keys, a harp with all it’s strings, and potted plants. Geometrically it is constructed in the cinematic standard, that is as quadrilaterals.')">
+      </div>
+      <div class = "col-8">
+        <div class = "list_description" style="float:right; text-align:right;">
+          <p>
+            This piece is a modeling of a wedding chapel located in a hotel in Tokyo, loosely modeled after images of the actual location, built, staged, textured and rendered in Maya. Within the room, there are models of a wicker veil, pew benches, a piano with all its keys, a harp with all it’s strings, and potted plants. Geometrically it is constructed in the cinematic standard, that is as quadrilaterals.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer">
+        <p>
+          Site developed and managed by Eddie Yi
+        </p>
+        <p>
+          Last updated December 19, 2019
+        </p>
+        <button class="footer_button" onclick="window.location.href = 'https://www.linkedin.com/in/edward-yi-780ba5177/';"><i class="fab fa-linkedin"></i></button>
+      </div>
+    </div>
+    <div class="my_modal" id="my_modal" style="display:none;">
+      <button class="close" onclick="closeModal();"><i class="fas fa-times"></i></button>
+      <div class="project" id="project_page">
+        <div class = "modal_description" id = "modal_description">
+
+          <hr style="transform: translate(-40px)">
+          <hr style="transform: translate(60px)">
+        </div>
+        <div class="project_img" id="project_img">
+
+        </div>
+      </div>
+    </div>
+    <script src="js/modal.js"></script>
+    <div class="my_modal" id="my_video_modal" style="display:none;">
+      <button class="close" onclick="closeVideoModal();"><i class="fas fa-times"></i></button>
+      <div class="project" id="video_page">
+        <div class = "modal_description" id = "video_description">
+
+          <hr style="transform: translate(-40px)">
+          <hr style="transform: translate(60px)">
+        </div>
+        <div class="project_img" id="project_video">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+</html>
